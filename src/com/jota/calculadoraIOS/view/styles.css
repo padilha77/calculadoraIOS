@@ -1,8 +1,50 @@
+.calculadora {
+    -fx-background-color: #000000;
+    -fx-font-family: "Segoe UI";
+}
+.visor {
+    -fx-text-fill: #ffffff;
+    -fx-font-family: "Segoe UI Light";
+    -fx-font-size: 80px;
+    -fx-font-weight: normal;
+}
+.button {
+    -fx-background-insets: 0;
+    -fx-background-radius: 1000;
+    -fx-border-radius: 1000;
+    -fx-padding: 0;
+    -fx-font-size: 34px;
+    -fx-font-weight: normal;
+    -fx-cursor: hand;
+}
 .botao-numero {
     -fx-background-color: #333333;
-    -fx-text-fill: white;
+    -fx-text-fill: #ffffff;
+}
+.botao-operador {
+    -fx-background-color: #ff9500;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 40px;
+}
+.botao-funcao {
+    -fx-background-color: #a5a5a5;
+    -fx-text-fill: #000000;
     -fx-font-size: 28px;
-    -fx-background-radius: 100;
-    -fx-pref-width: 70px;
-    -fx-pref-height: 70px;
+}
+.botao-zero {
+    -fx-alignment: center-left;
+    -fx-padding: 0 0 0 29;
+}
+.botao-numero:hover { -fx-background-color: #484848; }
+.botao-funcao:hover { -fx-background-color: #c4c4c4; }
+.botao-operador:hover { -fx-background-color: #ffad36; }
+.botao-operador:selected {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #ff9500;
+}
+.button:armed { -fx-opacity: 0.7; }
+.button:focused {
+    -fx-border-color: #ffffff;
+    -fx-border-width: 2;
+    -fx-border-insets: 3;
 }
