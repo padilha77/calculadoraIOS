@@ -1,0 +1,8 @@
+.botao-numero {
+    -fx-background-color: #333333;
+    -fx-text-fill: white;
+    -fx-font-size: 28px;
+    -fx-background-radius: 100;
+    -fx-pref-width: 70px;
+    -fx-pref-height: 70px;
+}
